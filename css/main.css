@@ -17,11 +17,40 @@
 body {
     font-family: 'Roboto', sans-serif; 
     font-size: 1.5em;
-
 }
+.promo-top{
+height: 2em;
+padding-top: .5em;
+background-color: black;
+color: var(--clr-white);
+text-align: center;
+font-size: 1em;
+}
+
 .brand{
     font-size: 1.5em;
-    color: var(--clr-main-light);
+    color:var(--clr-main-light);
+}
+.brand:hover{
+    color:var(--clr-main-light);
+}
+.dropdown-menu li a {
+color: var(--clr-main-light);
+}
+.btn-buscar{
+background-color: var(--clr-main-light);
+border-radius: .3em;
+padding: .1em 1.5em;
+}
+.bag-icon{
+    font-size: 1.5em;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+.numerito{
+color: var(--clr-white);
+font-size: 20px;
+
 }
 
 h1, h2, h3 {
@@ -32,6 +61,24 @@ h1, h2, h3 {
 }
 .color-header{
     background-color: var(--clr-main);
+}
+.nav-item a:hover{
+   color: var(--clr-main-light); 
+}
+.doce-cuotas{
+height: 5em;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Roboto', sans-serif; 
+font-size: 2em;
+font-weight: 100;
+}
+.productos{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+gap: 2em;
 }
 
 /*Contacto*/
